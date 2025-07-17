@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - CP Kukreja Architects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <span class="logo">CP Kukreja Architects</span>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#projects" class="active">Projects</a>
+                    <a href="#expertise">Expertise</a>
+                    <a href="#news">News</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Projects</h1>
+                <p class="hero-text">
+                    Having been in the industry for over five decades now, we have been a part of the most significant 
+                    housing projects ranging from private residences to residential societies to large-scale townships. 
+                    Each project for us brings new opportunity to design a unique concept which instills a distinct identity to it.
+                </p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="offices">Offices</button>
+                    <button class="filter-btn" data-category="foreign-missions">Foreign Missions</button>
+                    <button class="filter-btn" data-category="health-care">Health Care</button>
+                    <button class="filter-btn" data-category="hospitality">Hospitality</button>
+                    <button class="filter-btn" data-category="residential">Residential</button>
+                    <button class="filter-btn" data-category="industrial">Industrial</button>
+                    <button class="filter-btn" data-category="institutional">Institutional</button>
+                    <button class="filter-btn" data-category="master-planning">Master Planning</button>
+                    <button class="filter-btn" data-category="mixed-use">Mixed Use</button>
+                    <button class="filter-btn" data-category="redevelopment">Redevelopment</button>
+                    <button class="filter-btn" data-category="retail">Retail</button>
+                    <button class="filter-btn" data-category="transportation">Transportation</button>
+                </div>
+
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; CPKA 2021. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
